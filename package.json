@@ -1,14 +1,17 @@
 {
   "name": "musmix",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
-    "start": "node ./bin/www"
-  },
+    "start": "node ./bin/www",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "^4.19.2",
+    "gh-pages": "^6.1.1",
     "http-errors": "~1.6.3",
     "jade": "^1.9.2",
     "morgan": "~1.9.1"
