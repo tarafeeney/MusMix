@@ -1,0 +1,56 @@
+.background-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+.input-field {
+    position: absolute;
+    top: 25%;
+    left: 44%;
+}
+.input-field:hover {
+}
+.uname-field {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transform: translate(0%, -50%);
+    background-color: rgba(200, 200, 200, 0.5);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.uname-field:hover {
+    background-color: rgba(200, 200, 200, 0.9);
+}
+.pwd-field {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transform: translate(0%, -60%);
+    background-color: rgba(200, 200, 200, 0.5);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.pwd-field:hover {
+    background-color: rgba(200, 200, 200, 0.9);
+}
+.submit-field {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transform: translate(0%, -70%);
+    background-color: rgba(200, 200, 200, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.submit-field:hover {
+    background-color: rgba(200, 200, 200, 0.9);
+}
+.content {
+
+}

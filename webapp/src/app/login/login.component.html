@@ -1,2 +1,36 @@
-<p>login page</p>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MusMix</title>
+    </head>
+
+    <body>
+        <main class="main">
+            <div class="content">
+                <div class = "main-image">
+                    <img src="login.png" class="background-image">
+                </div>
+                <div class = "input-field">
+                    <div class = "uname-field">
+                        <form action="/action_page.php">
+                        <label for="uname">Username:</label>
+                        <input type="text" id="uname" name="uname"><br><br>
+                        </form>
+                    </div><br>
+                    <div class = "pwd-field">
+                        <form action="/action_page.php">
+                            <label for="pwd">Password:</label>
+                            <input type="password" id="pwd" name="pwd"><br><br>
+                        </form>
+                    </div><br>
+                    <div class = "submit-field">
+                        <form action="/action_page.php">
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
 <router-outlet></router-outlet>
