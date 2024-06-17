@@ -10,8 +10,6 @@
     top: 25%;
     left: 44%;
 }
-.input-field:hover {
-}
 .uname-field {
     display:flex;
     align-items:center;
@@ -50,7 +48,4 @@
 }
 .submit-field:hover {
     background-color: rgba(200, 200, 200, 0.9);
-}
-.content {
-
 }
